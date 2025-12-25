@@ -2,7 +2,7 @@
 
 ###### **1. Open 'install\_sinter.py'**
 
-###### **2. Open 'sinter.py' or 'sinter.exe' if you trust me ;)**
+###### **2. Open 'sinter.py'**
 
 
 
@@ -13,4 +13,5 @@
 
 
 ###### **WARNING: Only for Windows!**
+
 
