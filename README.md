@@ -24,10 +24,12 @@ Sinter is a simple and convenient graphical archiver for Windows that supports `
 2. Install the necessary libraries:
 ```bash
    pip install PyQt6
+```
 3. Download or clone the repository
 4. Run the program:
     ```bash
     python sinter.py
+    ```
 
 ## 🚀 Usage
 
@@ -79,5 +81,6 @@ If you find a bug or have suggestions for improvement, please create an issue in
 ---
 
 **Note**: To run from the source code, you need to install PyQt6. If you do not trust executable files, it is recommended to run `sinter.py` directly
+
 
 
