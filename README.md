@@ -1,82 +1,83 @@
 # Sinter Archiver 🗃️
 
-Sinter — это простой и удобный графический архиватор для Windows с поддержкой форматов `.sntr` и `.zip`. Программа имеет современный тёмный интерфейс и позволяет легко создавать, открывать, добавлять файлы и распаковывать архивы
+Sinter is a simple and convenient graphical archiver for Windows that supports `.sntr` and `.zip` formats. The program has a modern dark interface and allows you to easily create, open, add files, and unpack archives.
 
-## ✨ Особенности
+## ✨ Features
 
-- 🖥️ Современный тёмный интерфейс на PyQt6
-- 📁 Поддержка форматов `.sntr` (нативный) и `.zip`
-- ➕ Добавление файлов в архив с защитой от повреждений
-- ⬇️ Распаковка всех файлов архива
-- 🗂️ Отображение содержимого архива в таблице с размерами
-- 🔗 Ассоциация файлов `.sntr` с программой (через установщик)
-- 🛡️ Безопасная работа с архивами через временные файлы
+- 🖥️ Modern dark interface based on PyQt6
+- 📁 Support for `.sntr` (native) and `.zip` formats
+- ➕ Add files to an archive with protection against corruption
+- ⬇️ Unpack all files in the archive
+- 🗂️ Displaying archive contents in a table with sizes
+- 🔗 Associating `.sntr` files with the program (via the installer)
+- 🛡️ Secure work with archives via temporary files
 
-## 📦 Установка
+## 📦 Installation
 
-### Требования
-- Windows 7 или выше
-- Python 3.8+ (если запускается исходный код)
-- Установленные библиотеки: `PyQt6`
+### Requirements
+- Windows 7 or higher
+- Python 3.8+ (if running from source code)
+- Installed libraries: `PyQt6`
 
-### Запуск из исходного кода
-1. Установите Python 3.8+ с [официального сайта](https://python.org)
-2. Установите необходимые библиотеки:
-   ```bash
+### Running from source code
+1. Install Python 3.8+ from the [official website](https://python.org)
+2. Install the necessary libraries:
+```bash
    pip install PyQt6
-3. Скачайте или клонируйте репозиторий
-4. Запустите программу:
+3. Download or clone the repository
+4. Run the program:
     ```bash
     python sinter.py
 
-## 🚀 Использование
+## 🚀 Usage
 
-### Основные кнопки интерфейса:
-- **✨ Новый** — создать новый архив
-- **📂 Открыть** — открыть существующий архив (`.sntr` или `.zip`)
-- **➕ Добавить файл** — добавить файлы в текущий архив
-- **⬇️ Извлечь всё** — распаковать все файлы из архива
+### Main interface buttons:
+- **✨ New** — create a new archive
+- **📂 Open** — open an existing archive (`.sntr` or `.zip`)
+- **➕ Add file** — add files to the current archive
+- **⬇️ Extract all** — unpack all files from the archive
 
-### Как создать архив:
-1. Нажмите **"✨ Новый"**
-2. Выберите место сохранения и укажите имя файла с расширением `.sntr` или `.zip`
-3. Нажмите **"Сохранить"**
+### How to create an archive:
+1. Click **“✨ New”**
+2. Select a save location and specify a file name with the extension `.sntr` or `.zip`
+3. Click **“Save”**
 
-### Как добавить файлы в архив:
-1. Откройте архив через **"📂 Открыть"**
-2. Нажмите **"➕ Добавить файл"**
-3. Выберите один или несколько файлов
-4. Нажмите **"Открыть"**
+### How to add files to an archive:
+1. Open the archive via **“📂 Open”**
+2. Click **“➕ Add file”**
+3. Select one or more files
+4. Click **“Open”**
 
-### Как распаковать архив:
-1. Откройте архив
-2. Нажмите **"⬇️ Извлечь всё"**
-3. Выберите папку для распаковки
-4. Нажмите **"Выбрать папку"**
+### How to unpack an archive:
+1. Open the archive
+2. Click **“⬇️ Extract all”**
+3. Select a folder to unpack
+4. Click **“Select folder”**
 
-## ⚠️ Важная информация
+## ⚠️ Important information
 
-- Программа работает **только на Windows**
-- Формат `.sntr` технически является ZIP-архивом с другим расширением
-- Для работы установщика ассоциаций требуются **права администратора**
-- Рекомендуется сохранять архивы в папках с полным доступом (например, "Документы")
+- The program works **only on Windows**
+- The `.sntr` format is technically a ZIP archive with a different extension
+- **Administrator rights** are required for the association installer to work
+- It is recommended to save archives in folders with full access (for example, “Documents”)
 
-## 🛠️ Технические детали
+## 🛠️ Technical details
 
-- Используется стандартная библиотека Python `zipfile` для работы с архивами
-- Интерфейс построен на **PyQt6**
-- Ассоциации файлов регистрируются через реестр Windows
-- При добавлении файлов используется безопасный метод с временной копией архива
+- The standard Python `zipfile` library is used to work with archives
+- The interface is built on **PyQt6**
+- File associations are registered via the Windows registry
+- A secure method with a temporary copy of the archive is used when adding files
 
-## 📄 Лицензия
+## 📄 License
 
-Проект распространяется под лицензией MIT. Вы можете свободно использовать, изменять и распространять код
+The project is distributed under the MIT license. You are free to use, modify, and distribute the code
 
-## 🤝 Поддержка
+## 🤝 Support
 
-Если вы обнаружили ошибку или у вас есть предложения по улучшению, создайте Issue в репозитории проекта
+If you find a bug or have suggestions for improvement, please create an issue in the project repository
 
 ---
 
-**Примечание**: Для запуска из исходного кода необходимо установить PyQt6. Если вы не доверяете исполняемым файлам, рекомендуется запускать `sinter.py` напрямую
+**Note**: To run from the source code, you need to install PyQt6. If you do not trust executable files, it is recommended to run `sinter.py` directly
+
 
