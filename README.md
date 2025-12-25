@@ -1,2 +1,16 @@
-# Sinter
-My first custom archiver 
+#### **Steps for start use the archiver:**
+
+###### **1. Open 'install\_sinter.py'**
+
+###### **2. Open 'sinter.py' or 'sinter.exe' if you trust me ;)**
+
+
+
+**Sinter uses its own special file format – .sntr**
+
+**The interface is very simple yet convenient. There are few buttons…**
+
+
+
+###### **WARNING: Only for Windows!**
+
